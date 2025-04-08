@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SBSYNERGY | Empowering Businesses Through Smart Tech</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Hero -->
+  <section class="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center text-center p-8">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">SBSYNERGY</h1>
+    <p class="text-xl md:text-2xl mb-6">Empowering businesses through smart tech</p>
+    <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-full">Let’s Work Together</a>
+  </section>
+
+  <!-- About -->
+  <section class="py-16 px-8 max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">About Me</h2>
+    <p class="text-lg">I'm a passionate Linux System Administrator and coach with years of hands-on experience managing, securing, and optimizing Linux environments. I specialize in helping aspiring IT professionals gain real-world skills in Linux system administration through practical, easy-to-follow training. My goal is to simplify complex concepts and empower my students to build confidence and succeed in their IT careers.</p>
+  </section>
+
+  <!-- Services -->
+  <section class="bg-gray-100 py-16 px-8">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-10">Services</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-center">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">Linux Training</h3>
+          <p>Hands-on Linux courses to help IT enthusiasts and professionals master system administration with real-world labs.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+          <p>Custom websites and web apps built for speed, simplicity, and scalability with modern web tech.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold mb-2">IT Consulting</h3>
+          <p>Tailored IT solutions for small businesses, from infrastructure setup to cloud deployment and security hardening.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-8 max-w-2xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-6">Contact Me</h2>
+    <form class="space-y-6" action="mailto:oogunsanwo@sb-synergy.com" method="POST" enctype="text/plain">
+      <div>
+        <label class="block mb-1 font-semibold">Name</label>
+        <input type="text" name="name" required class="w-full border border-gray-300 p-3 rounded-lg" />
+      </div>
+      <div>
+        <label class="block mb-1 font-semibold">Email</label>
+        <input type="email" name="email" required class="w-full border border-gray-300 p-3 rounded-lg" />
+      </div>
+      <div>
+        <label class="block mb-1 font-semibold">Message</label>
+        <textarea name="message" rows="5" required class="w-full border border-gray-300 p-3 rounded-lg"></textarea>
+      </div>
+      <button type="submit" class="bg-blue-600 text-white py-2 px-6 rounded-full hover:bg-blue-700">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p>&copy; 2025 SBSYNERGY | oogunsanwo@sb-synergy.com</p>
+  </footer>
+</body>
+</html>
