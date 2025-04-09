@@ -3,3 +3,7 @@
     "sharp": "^0.28.3"
   }
 }
+"devDependencies": {
+  "@babel/core": "^7.0.0"
+}
+
